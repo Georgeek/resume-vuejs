@@ -1,0 +1,69 @@
+<template>
+  <div id="app">
+    <Resume/>
+  </div>
+</template>
+
+<script>
+import Resume from './components/Resume'
+
+export default {
+  name: 'app',
+  components: {
+    Resume
+  }
+}
+</script>
+
+<style lang="stylus">
+@import '../node_modules/normalize.css/normalize.css'
+@import '../node_modules/vuetify/dist/vuetify.min.css'
+
+ul
+  padding 0
+  list-style none
+  text-align left
+
+  li
+    padding 14px 0 14px 100px
+    font-size 14px
+    color #363636
+    font-weight 400
+    border-bottom 1px dashed rgba(0, 0, 0, .2)
+
+.started-bg
+  height: 320px
+  background-color: #304FFF
+  &__image
+    width: 100%
+    height: 100%
+    background: url(http://beshley.com/mcard/blue/images/slide-bg.jpg) center center no-repeat
+    opacity: .5
+
+.container
+  position: relative
+  max-width none
+  background: #eee
+
+section
+  position: relative
+  padding 50px 0
+
+.wrapper
+  position: relative
+  top -180px
+  max-width: 1100px
+  margin: 0 auto
+
+.row
+  margin 0 -10px
+
+.flex
+  padding 0 12px
+
+#app
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+</style>
