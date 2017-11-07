@@ -1,0 +1,107 @@
+.timeline
+  position relative
+  display flex
+  flex-direction column
+
+  &:before
+    content ''
+    position absolute
+    top 0
+    left 50%
+    width 3px
+    height 100%
+    margin-left -2px
+    background-color #304fff
+
+  &__block
+    position relative
+    margin 30px 0
+
+    &:last-child
+      margin-bottom 0
+
+  &__point
+    position absolute
+    top 14px
+    left 50%
+    width 26px
+    height 26px
+    text-align center
+    background-color #304fff
+    border-radius 50%
+    margin-left -13px
+    color #fff
+
+    i
+      height 100%
+      font-size 18px
+
+  &__content
+    position relative
+    background-color #fff
+    width 46%
+
+    &:before
+      content ''
+      position absolute
+      top 17px
+      left 100%
+      border 10px solid transparent
+      border-left 10px solid #fff
+      z-index 1
+
+    &--right
+      float right
+      &:before
+        left auto
+        right 100%
+        border-left none
+        border-right 10px solid #fff
+
+      .timeline__date
+        right auto
+        left -154px
+
+        &:before
+          right auto
+          left 100%
+          border-right none
+          border-left 6px solid #304fff
+
+
+  &__date
+    position absolute
+    top 15px
+    right -154px
+    margin 0
+    background-color #304fff
+    color #fff
+    padding 1px 5px
+    font-weight 100
+    &:before
+      content ''
+      position absolute
+      top 6px
+      right 100%
+      // height 0
+      // width 0
+      border 6px solid transparent
+      border-right 6px solid #304fff
+
+  &__name
+    margin-bottom 10px
+    padding 0
+    display block
+    font-size 17px
+    color #363636
+    font-weight 400
+
+  &__category
+    padding 1px 5px
+    margin-bottom 10px
+    display inline-block
+    vertical-align top
+    background-color #efefef
+    font-size 13px
+    color #363636
+    border-radius 2px

@@ -1,6 +1,6 @@
 <template lang="pug">
   section.about
-    .about__box
+    .box
         v-layout(row wrap)
           v-flex(xs5)
             .about__photo
@@ -39,21 +39,6 @@ export default {
 
 <style lang="stylus">
 .about
-  &__box
-    padding: 25px
-    position: relative
-    background: #fefefe
-
-    -moz-border-radius: 2px
-    -webkit-border-radius: 2px
-    -khtml-border-radius: 2px
-    border-radius: 2px
-
-    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14)
-    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14)
-    -khtml-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14)
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14)
-
   &__photo
     margin-bottom 15px
     img
