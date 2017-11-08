@@ -1,33 +1,33 @@
 <template lang="pug">
   section.about
     .box
-        v-layout(row wrap)
-          v-flex(xs5)
-            .about__photo
-              img(src="../../../static/about__photo.jpg")
-            .about__info
-              ul
-                li Место жительства_ico: г.Иркутск, Россия
-                li Телефон_ico: 89500883135
-                li email_ico: egormad@gmail.com
+      v-layout(row wrap)
+        v-flex(xs5)
+          .about__photo
+            img(src="../../../static/about__photo.jpg")
+          .about__info
+            ul
+              li Место жительства_ico: г.Иркутск, Россия
+              li Телефон_ico: 89500883135
+              li email_ico: egormad@gmail.com
 
-          v-flex(xs7)
-            .about__person
-              .about__title Егор Мадьяров
-              .about__subtitle Front-end Developer
-              .about__social
-                a.about__btn: v-icon ac_unit
-                a.about__btn: v-icon account_balance
-                a.about__btn: v-icon account_balance
-                a.about__btn: v-icon account_balance
-                a.about__btn: v-icon account_balance
-            .about__description
-              p.
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-              p.
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-              p.
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
+        v-flex(xs7)
+          .about__person
+            .about__title Егор Мадьяров
+            .about__subtitle Front-end Developer
+            .about__social
+              a.about__btn: v-icon ac_unit
+              a.about__btn: v-icon account_balance
+              a.about__btn: v-icon account_balance
+              a.about__btn: v-icon account_balance
+              a.about__btn: v-icon account_balance
+          .about__description
+            p.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+            p.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+            p.
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
 </template>
 
 <script>

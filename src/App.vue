@@ -20,7 +20,6 @@ export default {
 @import '../node_modules/vuetify/dist/vuetify.min.css'
 
 @import './assets/styles/*.styl'
-// @import './assets/styles/subtitle.styl'
 
 #app
   -webkit-font-smoothing: antialiased;

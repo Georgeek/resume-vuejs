@@ -1,7 +1,7 @@
 <template lang="pug">
 section.skills
   v-app#sliderjs
-    .seciontitle Навыки
+    .sectiontitle Навыки
     v-layout(row wrap)
       v-flex(xs6)
         .box
@@ -13,7 +13,7 @@ section.skills
               li
                 span.label {{ex1.label}}
                 v-slider(v-model="ex1.val"
-                        :color="ex1.color")
+                          :color="ex1.color")
               li
                 span.label {{ex2.label}}
                 v-slider(v-model="ex2.val"
@@ -21,19 +21,19 @@ section.skills
               li
                 span.label {{ex3.label}}
                 v-slider(v-model="ex3.val"
-                            :color="ex3.color")
+                          :color="ex3.color")
               li
                 span.label {{ex4.label}}
                 v-slider(v-model="ex4.val"
-                            :color="ex4.color")
+                          :color="ex4.color")
               li
                 span.label {{ex1.label}}
                 v-slider(v-model="ex1.val"
-                            :color="ex1.color")
+                          :color="ex1.color")
               li
                 span.label {{ex2.label}}
                 v-slider(v-model="ex2.val"
-                            :color="ex2.color")
+                          :color="ex2.color")
 
       v-flex(xs6)
         .box
@@ -45,7 +45,7 @@ section.skills
               li
                 span.label {{ex1.label}}
                 v-slider(v-model="ex1.val"
-                        :color="ex1.color")
+                          :color="ex1.color")
               li
                 span.label {{ex2.label}}
                 v-slider(v-model="ex2.val"
@@ -53,7 +53,7 @@ section.skills
               li
                 span.label {{ex3.label}}
                 v-slider(v-model="ex3.val"
-                            :color="ex3.color")
+                          :color="ex3.color")
               li
                 span.label {{ex4.label}}
                 v-slider(v-model="ex4.val"
@@ -61,11 +61,11 @@ section.skills
               li
                 span.label {{ex1.label}}
                 v-slider(v-model="ex1.val"
-                            :color="ex1.color")
+                          :color="ex1.color")
               li
                 span.label {{ex2.label}}
                 v-slider(v-model="ex2.val"
-                            :color="ex2.color")
+                          :color="ex2.color")
 </template>
 
 <script>
